@@ -3,16 +3,11 @@
     margin: 0;
 }
 
-body {
+.container {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
     background-color: #028444;
-}
-
-.container {
-    height: 100vh;
-    width: 100vw;
 }
 
 .father1 {
@@ -21,7 +16,7 @@ body {
     height: 100vw;
     max-height: 400px;
     min-width: 400px;
-    left: -30%;
+    left: -20%;
     top: calc(100vh - 50%);
     transform: rotate(-30deg);
 }
@@ -33,7 +28,7 @@ body {
     max-height: 400px;
     min-width: 400px;
     top: 0;
-    right: -30%;
+    right: -20%;
     transform: rotate(150deg);
 }
 
